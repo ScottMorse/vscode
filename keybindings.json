@@ -1,0 +1,187 @@
+// Place your key bindings in this file to override the defaults
+[
+  {
+    // TODO
+    "key": "ctrl+alt+n",
+    "command": "type",
+    "args": {
+      "text": "♮"
+    }
+  },
+  {
+    "key": "ctrl+alt+b",
+    "command": "type",
+    "args": {
+      "text": "♭"
+    }
+  },
+  {
+    "key": "ctrl+alt+shift+b",
+    "command": "type",
+    "args": {
+      "text": "𝄫"
+    }
+  },
+  {
+    "key": "ctrl+alt+3",
+    "command": "type",
+    "args": {
+      "text": "♯"
+    }
+  },
+  {
+    "key": "ctrl+alt+shift+3",
+    "command": "type",
+    "args": {
+      "text": "𝄪"
+    }
+  },
+  {
+    // Z
+    "key": "shift+alt+meta+s ctrl+shift+alt+z",
+    "command": "undo"
+  },
+  {
+    // C
+    "key": "shift+alt+meta+s meta+shift+alt+/",
+    "command": "editor.action.commentLine"
+  },
+  {
+    // S
+    "key": "shift+alt+meta+s ctrl+shift+alt+s",
+    "command": "workbench.action.files.save"
+  },
+  {
+    // Copy paste keys
+    "key": "shift+alt+meta+s ctrl+shift+alt+c",
+    "command": "editor.action.clipboardCopyAction"
+  },
+  {
+    "key": "shift+alt+meta+s ctrl+shift+alt+v",
+    "command": "editor.action.clipboardPasteAction"
+  },
+  {
+    // top right
+    "key": "shift+alt+meta+s ctrl+shift+alt+\\",
+    "command": "explorer.newFile"
+  },
+  {
+    "key": "shift+alt+meta+s ctrl+shift+alt+'",
+    "command": "explorer.newFolder"
+  },
+  {
+    // View switches
+    "key": "shift+alt+meta+s ctrl+shift+alt+left",
+    "command": "workbench.action.previousEditor"
+  },
+  {
+    "key": "shift+alt+meta+s ctrl+shift+alt+right",
+    "command": "workbench.action.nextEditor"
+  },
+  {
+    "key": "shift+alt+meta+s ctrl+shift+alt+down",
+    "command": "workbench.action.closeActiveEditor"
+  },
+  {
+    "key": "shift+alt+meta+s ctrl+shift+alt+up",
+    "command": "workbench.action.quickOpen"
+  },
+  {
+    // group switches
+    "key": "shift+alt+meta+s ctrl+shift+alt+j",
+    "command": "workbench.action.focusLeftGroup"
+  },
+  {
+    "key": "shift+alt+meta+s ctrl+shift+alt+k",
+    "command": "workbench.action.focusAboveGroup"
+  },
+  {
+    "key": "shift+alt+meta+s ctrl+shift+alt+l",
+    "command": "workbench.action.focusBelowGroup"
+  },
+  {
+    "key": "shift+alt+meta+s ctrl+shift+alt+;",
+    "command": "workbench.action.focusRightGroup"
+  },
+  {
+    // create group switches
+    "key": "shift+alt+meta+s ctrl+shift+alt+u",
+    "command": "workbench.action.newGroupLeft"
+  },
+  {
+    "key": "shift+alt+meta+s ctrl+shift+alt+i",
+    "command": "workbench.action.newGroupAbove"
+  },
+  {
+    "key": "shift+alt+meta+s ctrl+shift+alt+o",
+    "command": "workbench.action.newGroupBelow"
+  },
+  {
+    "key": "shift+alt+meta+s ctrl+shift+alt+p",
+    "command": "workbench.action.newGroupRight"
+  },
+  {
+    // 0
+    "key": "shift+alt+meta+s ctrl+alt+shift+0",
+    "command": "workbench.action.closeGroup"
+  },
+  {
+    // numpad layer keys
+    "key": "shift+alt+meta+s meta+shift+alt+p",
+    "command": "editor.action.addSelectionToPreviousFindMatch"
+  },
+  {
+    "key": "shift+alt+meta+s meta+shift+alt+n",
+    "command": "editor.action.addSelectionToNextFindMatch"
+  },
+  {
+    // R
+    "key": "shift+alt+meta+s ctrl+shift+alt+r",
+    "command": "renameFile"
+  },
+  {
+    // Wheel click
+    "key": "shift+alt+meta+s ctrl+meta+shift+alt+p",
+    "command": "workbench.action.showCommands"
+  },
+  {
+    // H
+    "key": "shift+alt+meta+s ctrl+shift+alt+h",
+    "command": "workbench.action.replaceInFiles"
+  },
+  // T
+  {
+    "key": "shift+alt+meta+s ctrl+shift+alt+t",
+    "command": "workbench.action.terminal.toggleTerminal"
+  },
+  {
+    // F
+    "key": "shift+alt+meta+s ctrl+shift+alt+f",
+    "command": "workbench.view.explorer"
+  },
+  // B`
+  {
+    "key": "shift+alt+meta+s ctrl+shift+alt+b",
+    "command": "workbench.action.toggleSidebarVisibility"
+  }
+  // {
+  //   "key": "shift+alt+meta+s ctrl+shift+alt+z",
+  //   "command":
+  // },
+  // {
+  //   "key": "shift+alt+meta+s ctrl+shift+alt+z",
+  //   "command":
+  // },
+  // {
+  //   "key": "shift+alt+meta+s ctrl+shift+alt+z",
+  //   "command":
+  // },
+  // {
+  //   "key": "shift+alt+meta+s ctrl+shift+alt+z",
+  //   "command":
+  // },
+  // {
+  //   "key": "shift+alt+meta+s ctrl+shift+alt+z",
+  //   "command":
+  // },
+]
