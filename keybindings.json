@@ -159,19 +159,19 @@
     "key": "shift+alt+meta+s ctrl+shift+alt+f",
     "command": "workbench.view.explorer"
   },
-  // B`
+  // B
   {
     "key": "shift+alt+meta+s ctrl+shift+alt+b",
     "command": "workbench.action.toggleSidebarVisibility"
+  },
+  {
+    "key": "shift+alt+meta+s meta+shift+alt+9",
+    "command": "workbench.action.closeAllEditors"
+  },
+  {
+    "key": "shift+alt+meta+s ctrl+shift+alt+q",
+    "command": "actions.find"
   }
-  // {
-  //   "key": "shift+alt+meta+s ctrl+shift+alt+z",
-  //   "command":
-  // },
-  // {
-  //   "key": "shift+alt+meta+s ctrl+shift+alt+z",
-  //   "command":
-  // },
   // {
   //   "key": "shift+alt+meta+s ctrl+shift+alt+z",
   //   "command":
