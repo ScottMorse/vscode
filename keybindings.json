@@ -175,7 +175,23 @@
   {
     "key": "shift+alt+meta+s ctrl+shift+alt+a",
     "command": "editor.action.changeAll"
+  },
+  {
+    "key": "shift+alt+meta+s ctrl+shift+alt+y",
+    "command": "editor.action.rename"
   }
+  // {
+  //   "key": "shift+alt+meta+s ctrl+shift+alt+z",
+  //   "command":
+  // },
+  // {
+  //   "key": "shift+alt+meta+s ctrl+shift+alt+z",
+  //   "command":
+  // },
+  // {
+  //   "key": "shift+alt+meta+s ctrl+shift+alt+z",
+  //   "command":
+  // },
   // {
   //   "key": "shift+alt+meta+s ctrl+shift+alt+z",
   //   "command":
