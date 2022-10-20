@@ -126,7 +126,7 @@
   },
   {
     // numpad layer keys
-    "key": "ctrl+shift+alt+` ctrl+shift+alt+p",
+    "key": "ctrl+shift+alt+` ctrl+alt+n",
     "command": "editor.action.addSelectionToPreviousFindMatch"
   },
   {
@@ -180,8 +180,12 @@
     "command": "editor.action.rename"
   },
   {
-    "key": "ctrl+shift+alt+` ctrl+shift+alt+tab",
+    "key": "ctrl+shift+alt+` ctrl+alt+tab",
     "command": "workbench.action.moveSidePanelToPanel"
+  },
+  {
+    "key": "ctrl+shift+alt+` ctrl+shift+alt+tab",
+    "command": "workbench.action.movePanelToSidePanel"
   }
   // {
   //   "key": "ctrl+shift+alt+` ctrl+shift+alt+z",
@@ -200,4 +204,3 @@
   //   "command":
   // },
 ]
-
