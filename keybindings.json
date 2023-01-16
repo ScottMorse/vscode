@@ -1,40 +1,40 @@
 [
-  {
-    // TODO
-    "key": "ctrl+alt+n",
-    "command": "type",
-    "args": {
-      "text": "♮"
-    }
-  },
-  {
-    "key": "ctrl+alt+b",
-    "command": "type",
-    "args": {
-      "text": "♭"
-    }
-  },
-  {
-    "key": "ctrl+alt+shift+b",
-    "command": "type",
-    "args": {
-      "text": "𝄫"
-    }
-  },
-  {
-    "key": "ctrl+alt+3",
-    "command": "type",
-    "args": {
-      "text": "♯"
-    }
-  },
-  {
-    "key": "ctrl+alt+shift+3",
-    "command": "type",
-    "args": {
-      "text": "𝄪"
-    }
-  },
+  // {
+  //   // TODO
+  //   "key": "ctrl+alt+n",
+  //   "command": "type",
+  //   "args": {
+  //     "text": "♮"
+  //   }
+  // },
+  // {
+  //   "key": "ctrl+alt+b",
+  //   "command": "type",
+  //   "args": {
+  //     "text": "♭"
+  //   }
+  // },
+  // {
+  //   "key": "ctrl+alt+shift+b",
+  //   "command": "type",
+  //   "args": {
+  //     "text": "𝄫"
+  //   }
+  // },
+  // {
+  //   "key": "ctrl+alt+3",
+  //   "command": "type",
+  //   "args": {
+  //     "text": "♯"
+  //   }
+  // },
+  // {
+  //   "key": "ctrl+alt+shift+3",
+  //   "command": "type",
+  //   "args": {
+  //     "text": "𝄪"
+  //   }
+  // },
   {
     // Z
     "key": "ctrl+shift+alt+` ctrl+shift+alt+z",
@@ -56,16 +56,21 @@
     "command": "editor.action.clipboardCopyAction"
   },
   {
+    // Copy paste keys
+    "key": "ctrl+shift+alt+` ctrl+alt+c",
+    "command": "editor.action.clipboardCutAction"
+  },
+  {
     "key": "ctrl+shift+alt+` ctrl+shift+alt+v",
     "command": "editor.action.clipboardPasteAction"
   },
   {
     // top right
-    "key": "ctrl+shift+alt+` ctrl+shift+alt+\\",
+    "key": "ctrl+shift+alt+` ctrl+shift+alt+3",
     "command": "explorer.newFile"
   },
   {
-    "key": "ctrl+shift+alt+` ctrl+shift+alt+'",
+    "key": "ctrl+shift+alt+` ctrl+shift+alt+r",
     "command": "explorer.newFolder"
   },
   {
@@ -120,8 +125,7 @@
     "command": "workbench.action.newGroupRight"
   },
   {
-    // 0
-    "key": "ctrl+shift+alt+` ctrl+alt+shift+0",
+    "key": "ctrl+shift+alt+` ctrl+alt+shift+\\",
     "command": "workbench.action.closeGroup"
   },
   {
@@ -186,6 +190,34 @@
   {
     "key": "ctrl+shift+alt+` ctrl+shift+alt+tab",
     "command": "workbench.action.movePanelToSidePanel"
+  },
+  {
+    "key": "ctrl+shift+alt+` ctrl+shift+alt+6",
+    "command": "github.copilot.toggleCopilot"
+  },
+  {
+    "key": "ctrl+shift+alt+` ctrl+shift+alt+7",
+    "command": "github.copilot.generate"
+  },
+  {
+    "key": "ctrl+shift+alt+` ctrl+shift+alt+8",
+    "command": "editor.action.inlineSuggest.commit"
+  },
+  {
+    "key": "ctrl+shift+alt+` ctrl+shift+alt+9",
+    "command": "editor.action.inlineSuggest.showNext"
+  },
+  {
+    "key": "ctrl+shift+alt+` ctrl+shift+alt+0",
+    "command": "editor.action.inlineSuggest.showPrevious"
+  },
+  {
+    "key": "ctrl+shift+alt+` ctrl+shift+alt+-",
+    "command": "editor.action.inlineSuggest.hide"
+  },
+  {
+    "key": "ctrl+shift+alt+` ctrl+shift+alt+=",
+    "command": "editor.action.inlineSuggest.trigger"
   }
   // {
   //   "key": "ctrl+shift+alt+` ctrl+shift+alt+z",
