@@ -66,11 +66,11 @@
   },
   {
     // top right
-    "key": "ctrl+shift+alt+` ctrl+shift+alt+3",
+    "key": "ctrl+shift+alt+` ctrl+shift+alt+r",
     "command": "explorer.newFile"
   },
   {
-    "key": "ctrl+shift+alt+` ctrl+shift+alt+r",
+    "key": "ctrl+shift+alt+` ctrl+shift+alt+d",
     "command": "explorer.newFolder"
   },
   {
@@ -154,7 +154,7 @@
   },
   // T
   {
-    "key": "ctrl+shift+alt+` ctrl+shift+alt+t",
+    "key": "ctrl+shift+alt+` ctrl+shift+alt+2",
     "command": "workbench.action.terminal.toggleTerminal"
   },
   {
@@ -218,7 +218,26 @@
   {
     "key": "ctrl+shift+alt+` ctrl+shift+alt+=",
     "command": "editor.action.inlineSuggest.trigger"
+  },
+  {
+    "key": "ctrl+shift+alt+` ctrl+shift+alt+[",
+    "command": "workbench.action.closeOtherEditors"
+  },
+  {
+    "key": "ctrl+shift+alt+` ctrl+shift+alt+1",
+    "command": "workbench.action.problems.focus"
+  },
+  {
+    "key": "ctrl+shift+alt+` ctrl+shift+alt+t",
+    "command": "workbench.action.movePanelToSecondarySideBar"
+  },
+  {
+    "key": "ctrl+shift+alt+` ctrl+shift+alt+g",
+    "command": "workbench.action.moveSecondarySideBarToPanel"
   }
+  //   "key": "ctrl+shift+alt+` ctrl+shift+alt+t",
+  //   "command": "typescript.restartTsServer"
+  // }
   // {
   //   "key": "ctrl+shift+alt+` ctrl+shift+alt+z",
   //   "command":
@@ -236,3 +255,4 @@
   //   "command":
   // },
 ]
+
