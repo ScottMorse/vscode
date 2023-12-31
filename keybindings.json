@@ -2,35 +2,35 @@
   // {
   //   // TODO
   //   "key": "ctrl+alt+n",
-  //   "command": "type",
+  //   "command": "type",,
   //   "args": {
   //     "text": "♮"
   //   }
   // },
   // {
   //   "key": "ctrl+alt+b",
-  //   "command": "type",
+  //   "command": "type",,
   //   "args": {
   //     "text": "♭"
   //   }
   // },
   // {
   //   "key": "ctrl+alt+shift+b",
-  //   "command": "type",
+  //   "command": "type",,
   //   "args": {
   //     "text": "𝄫"
   //   }
   // },
   // {
   //   "key": "ctrl+alt+3",
-  //   "command": "type",
+  //   "command": "type",,
   //   "args": {
   //     "text": "♯"
   //   }
   // },
   // {
   //   "key": "ctrl+alt+shift+3",
-  //   "command": "type",
+  //   "command": "type",,
   //   "args": {
   //     "text": "𝄪"
   //   }
@@ -38,221 +38,543 @@
   {
     // Z
     "key": "ctrl+shift+alt+` ctrl+shift+alt+z",
-    "command": "undo"
+    "command": "undo",
+    "customMetadata": {
+      "talon": {
+        "rule": "",
+        "name": "",
+        "requirePrefix": false
+      }
+    }
   },
   {
     // C
     "key": "ctrl+shift+alt+` ctrl+shift+alt+/",
-    "command": "editor.action.commentLine"
+    "command": "editor.action.commentLine",
+    "customMetadata": {
+      "talon": {
+        "rule": "comment [line]",
+        "name": "toggle comment",
+        "requirePrefix": false
+      }
+    }
   },
   {
     // S
     "key": "ctrl+shift+alt+` ctrl+shift+alt+s",
-    "command": "workbench.action.files.save"
+    "command": "workbench.action.files.save",
+    "customMetadata": {
+      "talon": {
+        "rule": "save",
+        "name": "save",
+        "requirePrefix": false
+      }
+    }
   },
   {
     // Copy paste keys
     "key": "ctrl+shift+alt+` ctrl+shift+alt+c",
-    "command": "editor.action.clipboardCopyAction"
+    "command": "editor.action.clipboardCopyAction",
+    "customMetadata": {
+      "talon": {
+        "rule": "copy",
+        "name": "copy",
+        "requirePrefix": false
+      }
+    }
   },
   {
     // Copy paste keys
     "key": "ctrl+shift+alt+` ctrl+alt+c",
-    "command": "editor.action.clipboardCutAction"
+    "command": "editor.action.clipboardCutAction",
+    "customMetadata": {
+      "talon": {
+        "rule": "cut",
+        "name": "cut",
+        "requirePrefix": false
+      }
+    }
   },
   {
     "key": "ctrl+shift+alt+` ctrl+shift+alt+v",
-    "command": "editor.action.clipboardPasteAction"
+    "command": "editor.action.clipboardPasteAction",
+    "customMetadata": {
+      "talon": {
+        "rule": "paste",
+        "name": "paste",
+        "requirePrefix": false
+      }
+    }
   },
   {
-    // top right
-    "key": "ctrl+shift+alt+` ctrl+shift+alt+r",
-    "command": "explorer.newFile"
+    "key": "ctrl+shift+alt+` ctrl+shift+alt+e",
+    "command": "explorer.newFile",
+    "customMetadata": {
+      "talon": {
+        "rule": "(new file | file new)",
+        "name": "new file",
+        "requirePrefix": false
+      }
+    }
   },
   {
     "key": "ctrl+shift+alt+` ctrl+shift+alt+d",
-    "command": "explorer.newFolder"
+    "command": "explorer.newFolder",
+    "customMetadata": {
+      "talon": {
+        "rule": "(folder new | new folder)",
+        "name": "new folder",
+        "requirePrefix": false
+      }
+    }
   },
   {
-    // View switches
     "key": "ctrl+shift+alt+` ctrl+shift+alt+left",
-    "command": "workbench.action.previousEditor"
+    "command": "workbench.action.previousEditor",
+    "customMetadata": {
+      "talon": {
+        "rule": "file (left | prev | previous | back)",
+        "name": "previous editor",
+        "requirePrefix": false
+      }
+    }
   },
   {
     "key": "ctrl+shift+alt+` ctrl+shift+alt+right",
-    "command": "workbench.action.nextEditor"
+    "command": "workbench.action.nextEditor",
+    "customMetadata": {
+      "talon": {
+        "rule": "file (right | next | forward)",
+        "name": "next editor",
+        "requirePrefix": false
+      }
+    }
   },
   {
     "key": "ctrl+shift+alt+` ctrl+shift+alt+down",
-    "command": "workbench.action.closeActiveEditor"
+    "command": "workbench.action.closeActiveEditor",
+    "customMetadata": {
+      "talon": {
+        "rule": "(file close | close file)",
+        "name": "close editor",
+        "requirePrefix": false
+      }
+    }
   },
   {
     "key": "ctrl+shift+alt+` ctrl+shift+alt+up",
-    "command": "workbench.action.quickOpen"
+    "command": "workbench.action.quickOpen",
+    "customMetadata": {
+      "talon": {
+        "rule": "open",
+        "name": "open",
+        "requirePrefix": false
+      }
+    }
   },
   {
     // group switches
     "key": "ctrl+shift+alt+` ctrl+shift+alt+j",
-    "command": "workbench.action.focusLeftGroup"
+    "command": "workbench.action.focusLeftGroup",
+    "customMetadata": {
+      "talon": {
+        "rule": "group [focus] left",
+        "name": "",
+        "requirePrefix": false
+      }
+    }
   },
   {
     "key": "ctrl+shift+alt+` ctrl+shift+alt+k",
-    "command": "workbench.action.focusAboveGroup"
+    "command": "workbench.action.focusAboveGroup",
+    "customMetadata": {
+      "talon": {
+        "rule": "group [focus] up",
+        "name": "",
+        "requirePrefix": false
+      }
+    }
   },
   {
     "key": "ctrl+shift+alt+` ctrl+shift+alt+l",
-    "command": "workbench.action.focusBelowGroup"
+    "command": "workbench.action.focusBelowGroup",
+    "customMetadata": {
+      "talon": {
+        "rule": "group [focus] down",
+        "name": "",
+        "requirePrefix": false
+      }
+    }
   },
   {
     "key": "ctrl+shift+alt+` ctrl+shift+alt+;",
-    "command": "workbench.action.focusRightGroup"
+    "command": "workbench.action.focusRightGroup",
+    "customMetadata": {
+      "talon": {
+        "rule": "group [focus] right",
+        "name": "",
+        "requirePrefix": false
+      }
+    }
   },
   {
     // create group switches
     "key": "ctrl+shift+alt+` ctrl+shift+alt+u",
-    "command": "workbench.action.newGroupLeft"
+    "command": "workbench.action.newGroupLeft",
+    "customMetadata": {
+      "talon": {
+        "rule": "(group new | new group) left",
+        "name": "",
+        "requirePrefix": false
+      }
+    }
   },
   {
     "key": "ctrl+shift+alt+` ctrl+shift+alt+i",
-    "command": "workbench.action.newGroupAbove"
+    "command": "workbench.action.newGroupAbove",
+    "customMetadata": {
+      "talon": {
+        "rule": "(group new | new group) (up | above)",
+        "name": "",
+        "requirePrefix": false
+      }
+    }
   },
   {
     "key": "ctrl+shift+alt+` ctrl+shift+alt+o",
-    "command": "workbench.action.newGroupBelow"
+    "command": "workbench.action.newGroupBelow",
+    "customMetadata": {
+      "talon": {
+        "rule": "(group new | new group) (down | below)",
+        "name": "",
+        "requirePrefix": false
+      }
+    }
   },
   {
     "key": "ctrl+shift+alt+` ctrl+shift+alt+p",
-    "command": "workbench.action.newGroupRight"
+    "command": "workbench.action.newGroupRight",
+    "customMetadata": {
+      "talon": {
+        "rule": "(group new | new group) right",
+        "name": "",
+        "requirePrefix": false
+      }
+    }
   },
   {
     "key": "ctrl+shift+alt+` ctrl+alt+shift+\\",
-    "command": "workbench.action.closeGroup"
+    "command": "workbench.action.closeGroup",
+    "customMetadata": {
+      "talon": {
+        "rule": "(group close | close group)",
+        "name": "",
+        "requirePrefix": false
+      }
+    }
   },
   {
     // numpad layer keys
     "key": "ctrl+shift+alt+` ctrl+alt+n",
-    "command": "editor.action.addSelectionToPreviousFindMatch"
+    "command": "editor.action.addSelectionToPreviousFindMatch",
+    "customMetadata": {
+      "talon": {
+        "rule": "[add] match (up | back | backward | prev | previous)",
+        "name": "",
+        "requirePrefix": false
+      }
+    }
   },
   {
     "key": "ctrl+shift+alt+` ctrl+shift+alt+n",
-    "command": "editor.action.addSelectionToNextFindMatch"
+    "command": "editor.action.addSelectionToNextFindMatch",
+    "customMetadata": {
+      "talon": {
+        "rule": "[add] match [down | next | forward]",
+        "name": "",
+        "requirePrefix": false
+      }
+    }
   },
   {
     // R
     "key": "ctrl+shift+alt+` ctrl+shift+alt+r",
-    "command": "renameFile"
+    "command": "renameFile",
+    "customMetadata": {
+      "talon": {
+        "rule": "rename [file | dir | directory]",
+        "name": "",
+        "requirePrefix": false
+      }
+    }
   },
   {
     // Wheel click
     "key": "ctrl+shift+alt+` ctrl+shift+alt+`",
-    "command": "workbench.action.showCommands"
+    "command": "workbench.action.showCommands",
+    "customMetadata": {
+      "talon": {
+        "rule": "command",
+        "name": "show commands",
+        "requirePrefix": false
+      }
+    }
   },
   {
     // H
     "key": "ctrl+shift+alt+` ctrl+shift+alt+h",
-    "command": "workbench.action.replaceInFiles"
+    "command": "workbench.action.replaceInFiles",
+    "customMetadata": {
+      "talon": {
+        "rule": "replace [all | multifile]",
+        "name": "",
+        "requirePrefix": false
+      }
+    }
   },
   // T
   {
     "key": "ctrl+shift+alt+` ctrl+shift+alt+2",
-    "command": "workbench.action.terminal.toggleTerminal"
+    "command": "workbench.action.terminal.toggleTerminal",
+    "customMetadata": {
+      "talon": {
+        "rule": "[toggle] shell",
+        "name": "",
+        "requirePrefix": false
+      }
+    }
   },
   {
     // F
     "key": "ctrl+shift+alt+` ctrl+shift+alt+f",
-    "command": "workbench.view.explorer"
+    "command": "workbench.view.explorer",
+    "customMetadata": {
+      "talon": {
+        "rule": "[focus] explorer",
+        "name": "focus explorer",
+        "requirePrefix": false
+      }
+    }
   },
   // B
   {
     "key": "ctrl+shift+alt+` ctrl+shift+alt+b",
-    "command": "workbench.action.toggleSidebarVisibility"
+    "command": "workbench.action.toggleSidebarVisibility",
+    "customMetadata": {
+      "talon": {
+        "rule": "[toggle] sidebar",
+        "name": "",
+        "requirePrefix": false
+      }
+    }
   },
   {
     "key": "ctrl+shift+alt+` ctrl+shift+alt+]",
-    "command": "workbench.action.closeAllEditors"
+    "command": "workbench.action.closeAllEditors",
+    "customMetadata": {
+      "talon": {
+        "rule": "close all",
+        "name": "",
+        "requirePrefix": false
+      }
+    }
   },
   {
     "key": "ctrl+shift+alt+` ctrl+shift+alt+q",
-    "command": "actions.find"
+    "command": "actions.find",
+    "customMetadata": {
+      "talon": {
+        "rule": "find | query | search",
+        "name": "",
+        "requirePrefix": false
+      }
+    }
   },
   {
     "key": "ctrl+shift+alt+` ctrl+shift+alt+a",
-    "command": "editor.action.changeAll"
+    "command": "editor.action.changeAll",
+    "customMetadata": {
+      "talon": {
+        "rule": "[change] all",
+        "name": "",
+        "requirePrefix": false
+      }
+    }
   },
   {
     "key": "ctrl+shift+alt+` ctrl+shift+alt+y",
-    "command": "editor.action.rename"
-  },
-  {
-    "key": "ctrl+shift+alt+` ctrl+alt+tab",
-    "command": "workbench.action.moveSidePanelToPanel"
-  },
-  {
-    "key": "ctrl+shift+alt+` ctrl+shift+alt+tab",
-    "command": "workbench.action.movePanelToSidePanel"
+    "command": "editor.action.rename",
+    "customMetadata": {
+      "talon": {
+        "rule": "[rename] symbol",
+        "name": "rename symbol",
+        "requirePrefix": false
+      }
+    }
   },
   {
     "key": "ctrl+shift+alt+` ctrl+shift+alt+6",
-    "command": "github.copilot.toggleCopilot"
+    "command": "github.copilot.toggleCopilot",
+    "customMetadata": {
+      "talon": {
+        "rule": "[toggle] copilot [toggle]",
+        "name": "",
+        "requirePrefix": false
+      }
+    }
   },
   {
     "key": "ctrl+shift+alt+` ctrl+shift+alt+7",
-    "command": "github.copilot.generate"
+    "command": "github.copilot.generate",
+    "customMetadata": {
+      "talon": {
+        "rule": "copilot generate",
+        "name": "",
+        "requirePrefix": false
+      }
+    }
   },
   {
     "key": "ctrl+shift+alt+` ctrl+shift+alt+8",
-    "command": "editor.action.inlineSuggest.commit"
+    "command": "editor.action.inlineSuggest.commit",
+    "customMetadata": {
+      "talon": {
+        "rule": "commit suggestion",
+        "name": "",
+        "requirePrefix": false
+      }
+    }
   },
   {
     "key": "ctrl+shift+alt+` ctrl+shift+alt+9",
-    "command": "editor.action.inlineSuggest.showNext"
+    "command": "editor.action.inlineSuggest.showNext",
+    "customMetadata": {
+      "talon": {
+        "rule": "next suggestion",
+        "name": "",
+        "requirePrefix": false
+      }
+    }
   },
   {
     "key": "ctrl+shift+alt+` ctrl+shift+alt+0",
-    "command": "editor.action.inlineSuggest.showPrevious"
+    "command": "editor.action.inlineSuggest.showPrevious",
+    "customMetadata": {
+      "talon": {
+        "rule": "(prev | previous) suggestion",
+        "name": "",
+        "requirePrefix": false
+      }
+    }
   },
   {
     "key": "ctrl+shift+alt+` ctrl+shift+alt+-",
-    "command": "editor.action.inlineSuggest.hide"
+    "command": "editor.action.inlineSuggest.hide",
+    "customMetadata": {
+      "talon": {
+        "rule": "hide suggestion",
+        "name": "",
+        "requirePrefix": false
+      }
+    }
   },
   {
     "key": "ctrl+shift+alt+` ctrl+shift+alt+=",
-    "command": "editor.action.inlineSuggest.trigger"
+    "command": "editor.action.inlineSuggest.trigger",
+    "customMetadata": {
+      "talon": {
+        "rule": "trigger suggestion",
+        "name": "",
+        "requirePrefix": false
+      }
+    }
   },
   {
     "key": "ctrl+shift+alt+` ctrl+shift+alt+[",
-    "command": "workbench.action.closeOtherEditors"
+    "command": "workbench.action.closeOtherEditors",
+    "customMetadata": {
+      "talon": {
+        "rule": "close (other [files] | others)",
+        "name": "",
+        "requirePrefix": false
+      }
+    }
   },
   {
     "key": "ctrl+shift+alt+` ctrl+shift+alt+1",
-    "command": "workbench.action.problems.focus"
+    "command": "workbench.action.problems.focus",
+    "customMetadata": {
+      "talon": {
+        "rule": "[focus] problems",
+        "name": "",
+        "requirePrefix": false
+      }
+    }
   },
   {
     "key": "ctrl+shift+alt+` ctrl+shift+alt+t",
-    "command": "workbench.action.movePanelToSecondarySideBar"
+    "command": "workbench.action.movePanelToSecondarySideBar",
+    "customMetadata": {
+      "talon": {
+        "rule": "panel (side | sidebar | right)",
+        "name": "",
+        "requirePrefix": false
+      }
+    }
   },
   {
     "key": "ctrl+shift+alt+` ctrl+shift+alt+g",
-    "command": "workbench.action.moveSecondarySideBarToPanel"
+    "command": "workbench.action.moveSecondarySideBarToPanel",
+    "customMetadata": {
+      "talon": {
+        "rule": "panel (down | bottom | under)",
+        "name": "",
+        "requirePrefix": false
+      }
+    }
   }
   //   "key": "ctrl+shift+alt+` ctrl+shift+alt+t",
-  //   "command": "typescript.restartTsServer"
-  // }
-  // {
-  //   "key": "ctrl+shift+alt+` ctrl+shift+alt+z",
-  //   "command":
+  //   "command": "typescript.restartTsServer",
+  // "customMetadata": {
+  // "talon": {
+  //   "command": "",
+  //   "name": "",
+  //   "requirePrefix": false
   // },
   // {
   //   "key": "ctrl+shift+alt+` ctrl+shift+alt+z",
-  //   "command":
+  //   "command":,
+  // "customMetadata": {
+  // "talon": {
+  //   "command": "",
+  //   "name": "",
+  // "requirePrefix": false
   // },
   // {
   //   "key": "ctrl+shift+alt+` ctrl+shift+alt+z",
-  //   "command":
+  //   "command":,
+  // "customMetadata": {
+  // "talon": {
+  //   "command": "",
+  //   "name": "",
+  // "requirePrefix": false
   // },
   // {
   //   "key": "ctrl+shift+alt+` ctrl+shift+alt+z",
-  //   "command":
+  //   "command":,
+  // "customMetadata": {
+  //   "talon": {
+  //   "command": "",
+  //   "name": "",
+  // "requirePrefix": false
+  // },
+  // {
+  //   "key": "ctrl+shift+alt+` ctrl+shift+alt+z",
+  //   "command":,
+  // "customMetadata": {
+  //   "talon": {
+  //   "command": "",
+  //   "name": "",
+  // "requirePrefix": false
   // },
 ]
-
